@@ -39,10 +39,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     #third party apps
-    'rest_framework'
+    'rest_framework',
 
     #project apps
-    
+    'universities.apps.UniversitiesConfig',
 ]
 
 MIDDLEWARE = [
